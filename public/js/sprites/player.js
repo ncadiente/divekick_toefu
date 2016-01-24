@@ -59,4 +59,29 @@ ToeFu.Player.prototype.update = function(){
   this.scale.x = FACING_FACTOR[ this.facing ];
 };
 
+//Input actions
+ToeFu.Player.prototype.jump = function(){
+
+};
+
+ToeFu.Player.prototype.dive = function(){
+
+};
+
+ToeFu.Player.prototype.dive_stop = function(){
+
+};
+
+ToeFu.Player.prototype.step_left = function(){
+
+};
+
+ToeFu.Player.prototype.step_right = function(){
+
+};
+
+ToeFu.Player.prototype.stop = function(){
+
+};
+
 })();

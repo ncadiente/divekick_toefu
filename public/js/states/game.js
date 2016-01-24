@@ -24,6 +24,9 @@ ToeFu.Game.prototype.create = function (){
   this.player_1.y = INITIAL_POSITIONS[0].y;
   this.player_2.x = INITIAL_POSITIONS[1].x;
   this.player_2.y = INITIAL_POSITIONS[1].y;
+
+  // initialize input handler
+     this.input = new ToeFu.GameInput(this);
 };
 
 ToeFu.Game.prototype.update = function(){
@@ -38,6 +41,11 @@ ToeFu.Game.prototype.update = function(){
 };
 
 ToeFu.Game.prototype.shutdown = function(){
+
+};
+
+//Input actions
+ToeFu.Game.prototype.continue = function(){
 
 };
 
