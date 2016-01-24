@@ -5,7 +5,7 @@ ToeFu.Boot = function(){
 
 };
 
-ToeFu.Boot.prototype.preLoad = function(){
+ToeFu.Boot.prototype.preload = function(){
   //will preload all assets
 
   //auto load each asset by type
